@@ -1,0 +1,68 @@
+#map_holder {
+    margin: 0;
+}
+
+#map_holder #map_inner svg {
+    height: 500px;
+    margin-left: -350px;
+}
+
+#map_holder #map_inner svg path {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    background-color: chartreuse !important;
+}
+
+
+/* Phần hover */
+
+#map_holder #map_inner svg .china:hover {
+    fill: red;
+    stroke: red;
+}
+
+#map_holder #map_inner svg .mongolia:hover {
+    fill: red;
+    stroke: red;
+}
+
+#map_holder #map_inner svg .kazakhstan:hover {
+    fill: red;
+    stroke: red;
+}
+
+#map_holder #map_inner svg .uzbekistan:hover {
+    fill: red;
+    stroke: red;
+}
+
+#map_holder #map_inner svg .japan:hover {
+    fill: red;
+    stroke: red;
+}
+
+#map_holder #map_inner svg .vietnam:hover {
+    fill: red;
+    stroke: red;
+}
+
+#map_holder #map_inner svg .cambodia:hover {
+    fill: red;
+    stroke: red;
+}
+
+#map_holder #map_inner svg .thailan:hover {
+    fill: red;
+    stroke: red;
+}
+
+#map_holder #map_inner svg .laos:hover {
+    fill: red;
+    stroke: red;
+}
+
+#map_holder #map_inner svg .india:hover {
+    fill: red;
+    stroke: red;
+}

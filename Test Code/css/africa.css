@@ -1,0 +1,28 @@
+    #map_holder {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    #map_holder #map_inner svg {
+        height: 600px;
+        margin-top: -100PX;
+        margin-left: -250PX;
+        z-index: 0;
+        /* margin-top: -150px; */
+    }
+    
+    #map_holder #map_inner svg .algeria:hover {
+        fill: red;
+    }
+    
+    #map_holder #map_inner svg .libya:hover {
+        fill: red;
+    }
+    
+    #map_holder #map_inner svg .morocco:hover {
+        fill: red;
+    }
+    
+    #map_holder #map_inner svg .tunisia:hover {
+        fill: red;
+    }

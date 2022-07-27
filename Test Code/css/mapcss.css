@@ -1,0 +1,24 @@
+#map_holder #map_inner svg #ChauMy:hover path {
+    fill: #cea100 !important;
+    stroke: black;
+}
+
+#map_holder #map_inner svg #ChauPhi:hover path {
+    fill: #31df4e !important;
+    stroke: black;
+}
+
+#map_holder #map_inner svg #ChauAu:hover path {
+    fill: #00eef7 !important;
+    stroke: black;
+}
+
+#map_holder #map_inner svg #ChauA:hover path {
+    fill: #8727d4 !important;
+    stroke: black;
+}
+
+#map_holder #map_inner svg #ChauDaiDuong:hover path {
+    fill: #0dff04 !important;
+    stroke: black;
+}
