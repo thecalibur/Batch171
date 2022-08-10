@@ -1,0 +1,91 @@
+/* Phần Menu Mắc Lại */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 10px 0 black;
+}
+
+
+/* Định dạng lại menu đa cấp */
+
+
+/* màu nav */
+
+nav.bg-dark {
+    background-image: linear-gradient(to right, rgb(145, 42, 228), aquamarine);
+    background-color: #042e4f!important;
+    z-index: 5;
+    text-transform: capitalize;
+}
+
+#ftco-nav .navbar-nav .nav-item {
+    text-decoration: none;
+    width: 160px;
+    text-align: center;
+    position: relative;
+    /* background-image:linear-gradient(to right, rgb(145, 42, 228), aquamarine);  */
+    color: black !important;
+}
+
+
+/* ul submenu */
+
+#ftco-nav .navbar-nav .nav-item .submenu {
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    z-index: 2;
+    line-height: 30px;
+    display: none;
+}
+
+#ftco-nav .navbar-nav .nav-item .submenu li {
+    width: auto;
+    text-align: right;
+}
+
+#ftco-nav .navbar-nav .nav-item .submenu li a {
+    /* color: white; */
+    color: blanchedalmond;
+}
+
+#ftco-nav .navbar-nav .nav-item .submenu li a:hover {
+    margin-right: 10px;
+    color: #f5be70;
+}
+
+#ftco-nav .navbar-nav .nav-item:hover .submenu {
+    text-decoration: none;
+    color: #fff !important;
+    width: 220px;
+    display: block;
+    text-align: right;
+    padding-right: 10px !important;
+    /* background-color: #042e4f; */
+    background-image: linear-gradient(to right, rgb(145, 42, 228), aquamarine);
+}
+
+
+/* Định dạng phần bản đồ */
+
+#map_holder {
+    margin-top: 40px;
+}
+
+
+/* ====================================================== css tranf contact ==================================================== */
+
+#contact {
+    background-color: rebeccapurple;
+}
+
+#preloader {
+    background: white url(/images/loading.gif) no-repeat center center;
+    background-size: 30%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
